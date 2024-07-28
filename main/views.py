@@ -17,4 +17,4 @@ def about(request):
         'text_on_page': 'Что ты хотел здесь увидеть?'
     }
 
-    return render(request, "main\\about.html", context)
+    return render(request, r"main\about.html", context)
